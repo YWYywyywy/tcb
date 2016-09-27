@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+	  *
+	  {
+	  	padding:0px;
+	  	margin:0px;
+	  }
+      #stepBox ul 
+      {
+      	list-style:none;
+      	margin:0 auto;
+      	padding:100px;
+      	position:relative;
+      }
+      #stepBox ul li
+      {
+        float:left;
+        width:160px;
+        margin-left:-20px;
+      }
+      #stepBox ul li a
+      {
+      	display:block;
+      	width:100px;
+      	height:30px;
+        line-height:30px;
+        text-align:center;
+        color:#679;
+        text-decoration:none;
+        background:#eee;
+        float:left;
+      }
+      #stepBox b
+      {
+      	width:0px;
+      	height:0px;
+      	border:15px solid #eee;
+      	border-left-color:transparent; 
+      	float:left; 
+      }
+      #stepBox ul li:first-child b
+      {
+      	width:0px;
+      	height:0px;
+      	border:15px solid #eee;
+      }
+      #stepBox s
+      {
+      	width:0px;
+      	height:0px;
+      	border:15px solid transparent;
+      	border-left-color:#eee;
+      	float:left;
+      }
+      #stepBox ul li:last-child s
+      {
+      	width:0px;
+      	height:0px;
+      	border:15px solid #eee;
+      }
+     #stepBox ul li:hover a
+      {
+      	background:pink;
+      }
+      #stepBox ul li:hover b
+      {
+      	border-color:pink;
+      	border-left-color:transparent;
+      }
+      #stepBox ul li:hover s
+      {
+      	border-color: transparent;
+      	border-left-color:pink;
+      }
+       #stepBox ul li:last-child:hover s,
+       #stepBox ul li:first-child:hover b
+       {
+       	  background:pink;
+       }
+	</style>
+</head>
+<body>
+    <div id="stepBox">
+    	<ul>
+    	 <li>
+    	 <b></b>
+    	 <a href="#">步骤一</a>
+    	 <s></s>
+    	 </li>
+    	 <li> 
+    	 <b></b>
+    	 <a href="#">步骤一</a>
+    	 <s></s>
+    	 </li> 
+    	 <li> 
+    	 <b></b>
+    	 <a href="#">步骤一</a>
+    	 <s></s>
+    	 </li>
+    	 <li> 
+    	 <b></b>
+    	 <a href="#">步骤一</a> 
+    	 <s></s>
+    	 </li>	
+        </ul>
+    </div>
+</body>
+</html>
